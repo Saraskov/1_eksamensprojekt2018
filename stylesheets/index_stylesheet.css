@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Picture*/
+.belle {
+	margin: 0 15% 0 auto;
+	max-width: 41%;
+	height: auto;
+	display: block;
+	padding: 20px 0px;
+}
+
+/*Box and text layout*/
+#box {
+	background-color: #a5d6a7;
+	position: absolute;
+	width: 354px;
+	padding: 4% 5% 5%;
+	text-align: center;
+	left: 15%;
+	top: 200px;
+	border-radius: 2%;
+}
+
+.box_logo {
+	width: 150px;
+	height: auto;
+	padding: 15px 0 5px 0;
+}
+
+
+
+
+@media only screen and (max-width: 1300px) {
+	#box {
+		width: 190px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#box, .belle {
+		visibility: hidden;
+	}
+}
