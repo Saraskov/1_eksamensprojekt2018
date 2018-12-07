@@ -4,6 +4,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	border: 0px;
 }
 
 body {
@@ -24,6 +25,13 @@ h2, h3, h4, h5, h6 {
 	font-size: 1.5em;
 	text-transform: uppercase;
 	margin-bottom: 1em;
+}
+
+h4 {
+	font-size: 1em;
+	padding-bottom: 2px;
+	border-bottom: 1px solid black;
+	text-align: left;
 }
 
 p {
@@ -170,7 +178,7 @@ footer p {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	text-align: center;
 	padding: 0 0 10%;
 	margin-left: 0;

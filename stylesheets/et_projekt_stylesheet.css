@@ -1,3 +1,192 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Den overwriter indstillingerne i generel_stylesheet. Da .imagebox skal gå ud til siderne.
+Resten af indholdet skal overholde:
+margin-left/right: 10%;
+max-width: 1400;
+width: 80%;
+*/
+.projekt_main {
+	margin: 5% 0;
+	width: 100%;
+	max-width: none;
+}
+
+/*Øverst billedeserie*/
+
+.imagebox {
+	width: 80%;
+	height: auto;
+	background-color: #D7FFD9;
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 10%;
+}
+
+.imagebox img {
+	max-width: 1000px;
+	width: 49%;
+	height: 49%;
+	overflow: hidden;
+}
+
+
+/*Local navigation*/
+
+.localnav_box {
+	margin: auto 10%;
+	max-width: 1400px;
+	width: 55%;
+	height: 50px;
+	padding: 10px 12.5%;
+}
+
+
+.localnav li {
+	width: 30%;
+	border-bottom: 1px solid #707070;
+}
+
+.localnav .storli {
+	width: 25%;
+	border-bottom: 1px solid #707070;
+}
+
+.localnav li a {
+	background: none;
+	color: black;
+	font-size: 0.9em;
+}
+
+.localnav li a:hover {
+	background: none;
+	color: #A5D6A7;
+}
+
+/*Description styles*/
+
+.description {
+	margin: 5% 10% 0;
+	max-width: 1400px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.description article, .despription_img {
+	width: 24%;
+}
+
+.description p {
+	text-align: left;
+}
+
+.air{
+	margin-top: 25px;
+}
+
+.despription_img img {
+	width: 100%;
+}
+
+/*Next navigation styles*/
+
+.next_nav, .pre_nav {
+	position: fixed;
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	z-index: 3;
+	top: 50%;
+}
+
+.projekt_title {
+	margin: auto;
+	vertical-align: middle;
+}
+
+.pre_nav {
+	background: url("../image/arrow_left.png") 90% no-repeat white;
+	border: 1px solid black;
+	border-left: none;
+	left: 0px;
+	margin-left: -140px;
+	display: block;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.pre_nav a {
+	vertical-align: middle;
+	width: 140px;
+	float: right;
+	padding: 33px 50px 33px 0px;
+	visibility: hidden;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.pre_nav:hover {
+	margin-left: 0px;
+}
+
+.next_nav {
+	background: url("../image/arrow_right.png") 10% no-repeat white;
+	border: 1px solid black;
+	border-right: none;
+	right: 0px;
+	margin-right: -140px;
+	display: block;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.next_nav a {
+	vertical-align: middle;
+	width: 140px;
+	float: left;
+	padding: 33px 10px 33px 50px;
+	visibility: hidden;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.next_nav:hover {
+	margin-right: 0px;
+}
+
+.next_nav:hover a, .pre_nav:hover a {
+	visibility: visible;
+}
+
+
+@media only screen and (max-width: 1100px) {
+	.localnav_box {
+		width: 70%;
+		padding: 0 5%;
+	}
+	
+	.description {
+		display: flex;
+		flex-wrap: wrap;
+		border-collapse: collapse;
+	}
+	
+	.description article, .despription_img {
+		width: 49%;
+		display: block;
+		margin-bottom: 25px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+	.description, .localnav_box, .overskrift, .imagebox, .projekt_nav {
+		visibility: hidden;
+	}
+}
