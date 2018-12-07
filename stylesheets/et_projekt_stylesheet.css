@@ -66,7 +66,7 @@ width: 80%;
 
 /*Description styles*/
 
-.description {
+.description, .description_to {
 	margin: 5% 10% 0;
 	max-width: 1400px;
 	width: 80%;
@@ -78,7 +78,11 @@ width: 80%;
 	width: 24%;
 }
 
-.description p {
+.description_to article {
+	width: 49%;
+}
+
+.description p, .description_to p {
 	text-align: left;
 }
 
@@ -88,6 +92,34 @@ width: 80%;
 
 .despription_img img {
 	width: 100%;
+}
+
+/*Button styles*/
+
+.button_box {
+	width: 100%;
+	align-content: center;
+	margin-top: 5%;
+}
+
+.button_box a button {
+	background-color: #A5D6A7;
+	border-radius: 12.5px;
+	border: 1px solid black;
+	vertical-align: middle;
+	padding: 10px;
+	cursor: pointer;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.button_box a button:hover {
+	opacity: 0.7;
+}
+
+.button_box a button h2 {
+	margin: 0 70px;
 }
 
 /*Next navigation styles*/
@@ -141,6 +173,7 @@ width: 80%;
 	right: 0px;
 	margin-right: -140px;
 	display: block;
+	vertical-align: middle;
 	-moz-transition: all 0.2s;
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
@@ -186,7 +219,7 @@ width: 80%;
 }
 
 @media only screen and (max-width: 900px) {
-	.description, .localnav_box, .overskrift, .imagebox, .projekt_nav {
+	.description, .localnav_box, .overskrift, .imagebox, .projekt_nav, .description_to, .button_box {
 		visibility: hidden;
 	}
 }
