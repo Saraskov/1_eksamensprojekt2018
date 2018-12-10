@@ -34,6 +34,11 @@ h4 {
 	text-align: left;
 }
 
+h5 {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
 p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
@@ -150,9 +155,21 @@ footer {
 	position: relative;
 }
 
-footer p {
+footer .footer_text {
 	width: 50%;
 	color: white;
+	text-align: left;
+	line-height: 2em;
+}
+
+.footer_text a {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer_text a:hover {
+	opacity: 0.8;
+	cursor: pointer;
 }
 
 #socialmedia {
@@ -219,6 +236,20 @@ footer p {
 	border-radius: 50%;
 }
 
+
+/*Credits styles*/
+#credits_box h5 {
+	margin-bottom: 0;
+}
+
+#credits_box .credit_in {
+	margin-bottom: 10px;
+}
+
+#credits_box a:hover {
+	text-decoration: underline;
+	opacity: 0.8;
+}
 
 
 /*Media query for navigationen*/
