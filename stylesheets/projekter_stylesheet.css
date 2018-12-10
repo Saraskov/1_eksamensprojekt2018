@@ -121,6 +121,9 @@ BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master
           transform:translate3d(0,0,0);
 }
 
+
+
+
 /* HEXAGON SIZING AND EVEN ROW INDENTATION */
 @media only screen and (min-width:1201px) { /* <- 5-4  hexagons per row */
   #hexGrid{

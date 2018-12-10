@@ -38,6 +38,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
+	line-height: 1.5em;
 }
 
 a {
@@ -128,7 +129,7 @@ nav li a:hover {
 /*Main styles*/
 main {
 	max-width: 1400px;
-	margin: 5% 10%;
+	margin: 2.5% 10% 5%;
 	width: 80%;
 	display: inline-block;
 }

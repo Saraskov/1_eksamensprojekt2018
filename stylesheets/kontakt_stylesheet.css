@@ -6,7 +6,9 @@ main {
 	display: inline-flex;
 	justify-content: space-between;
 	overflow: hidden;
+	margin-top: 5%;
 }
+
 
 .box1 {
 	display: flex;

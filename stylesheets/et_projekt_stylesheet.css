@@ -82,15 +82,16 @@ width: 80%;
 	width: 49%;
 }
 
-.description p, .description_to p, .description li {
+.description p, .description_to p, .description li, .description_to li {
 	text-align: left;
 }
 
-.description ul {
+.description ul, .description_to ul {
 	list-style-type: circle;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
+	line-height: 1.5em;
 }
 
 .air{
