@@ -22,8 +22,8 @@ h2, h3, h4, h5, h6 {
 }
 
 h4 {
-	font-size: 1em;
-	padding-bottom: 2px;
+	font-size: 1.2em;
+	padding: 2px 0;
 	border-bottom: 1px solid black;
 	text-align: left;
 }
@@ -54,9 +54,9 @@ a {
 	height: 70px;
 	top: 0;
 	background-color: #424242;
-	display: flex;
   	transition: top 0.3s;
 	z-index: 3;
+	display: flex;
 }
 
 .logo_box {
@@ -223,9 +223,15 @@ main {
 	text-align: center;
 }
 
-.overskrift {
+.overskrift_mobil {
 	width: 100%;
 	margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 900px){
+	.alert {
+		display: fixed;
+	}
 }
 
 @media only screen and (max-height: 900px){
@@ -259,6 +265,10 @@ main {
 @media only screen and (max-height: 570px){
 	.nav_hide #socialmedia{
 		margin: 100px auto 0;
+	}
+	
+	.pre_nav_mobil, .next_nav_mobil {
+		visibility: hidden;
 	}
 }
 

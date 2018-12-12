@@ -21,7 +21,6 @@ $(function(){
     });
 });
 
-
 //Delay på alert boxen i bunden. (Koden fundet w3schools.com)
 function myFunction (x) {
 	if (x.matches){

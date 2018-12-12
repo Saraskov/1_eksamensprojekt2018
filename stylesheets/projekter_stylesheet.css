@@ -5,7 +5,7 @@
 /*PROJEKT GALLERI
 BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master/hexagons.css*/
 
-#hexGrid {
+#hexGrid, #hexGrid_mobil {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -122,8 +122,6 @@ BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master
 }
 
 
-
-
 /* HEXAGON SIZING AND EVEN ROW INDENTATION */
 @media only screen and (min-width:1201px) { /* <- 5-4  hexagons per row */
   #hexGrid{
@@ -140,7 +138,7 @@ BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master
 /*Resten skal overføres til mobil hjemmesiden*/
 
 @media only screen and (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
-  #hexGrid{
+  #hexGrid, #hexGrid_mobil{
     padding-bottom: 5.5%
   }
   .hex {
@@ -152,9 +150,12 @@ BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master
 }
 
 @media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
-  #hexGrid{
+  #hexGrid_mobil{
     padding-bottom: 7.4%
   }
+	#hexGrid {
+		display: none;
+	}
   .hex {
     width: 33.333%; /* = 100 / 3 */
   }
@@ -164,7 +165,7 @@ BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master
 }
 
 @media (max-width: 600px) { /* <- 2-1  hexagons per row */
-  #hexGrid{
+  #hexGrid_mobil{
     padding-bottom: 11.2%
   }
   .hex {
@@ -176,7 +177,7 @@ BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master
 }
 
 @media (max-width: 400px) {
-    #hexGrid {
+    #hexGrid_mobil {
         font-size: 13px;
     }
 }
