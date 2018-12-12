@@ -153,10 +153,10 @@ a {
 
 
 .nav_hide nav ul li a {
- font-size: 3em;
+ font-size: 2em;
  color: inherit;
- font-weight: 600;
- line-height: 1.6em;
+ font-weight: 400;
+ line-height: 2em;
  text-decoration: none;
 }
 

@@ -190,7 +190,7 @@ footer .footer_text {
 /*Styles for mobilvisning, når skærmen er under 900px*/
 
 #mobilbesked {
-	visibility: hidden;
+	display: none;
 	position: absolute;
 	background-color: #a5d6a7;
 	top: 0;
@@ -304,14 +304,14 @@ footer .footer_text {
 
 @media only screen and (max-width: 900px) {
 	header {
-		visibility: hidden;
+		display: none;
 	}
 	
 	footer {
-		visibility: hidden;
+		display: none;
 	}
 	
 	#mobilbesked {
-		visibility: visible;
+		display: inherit;
 	}
 }
