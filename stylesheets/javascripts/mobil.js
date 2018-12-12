@@ -1,5 +1,7 @@
 // JavaScript Document
 
+
+//Script omkring navigationen
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
@@ -18,3 +20,19 @@ $(function(){
         $('nav_hide').removeClass('nav_hide');
     });
 });
+
+
+//Delay på alert boxen i bunden. (Koden fundet w3schools.com)
+function myFunction (x) {
+	if (x.matches){
+		document.getElementsByClassName('alert').style.visibility = "hidden";
+	}
+	else 
+		$(document).ready(function() {
+			$('.alert').delay(800).fadeIn(400);
+		});
+}
+
+var x = window.matchMedia("(max-width: 900px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes

@@ -109,3 +109,25 @@ table .vt a:hover {
 .text_box_med3 .air {
 	margin-top: 5%;
 }
+
+@media only screen and (max-width: 900px) {
+	#table_container {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	
+	table {
+		width: 100%;
+	}
+	
+	.text_box_med3 {
+		width: 100%;
+		margin: 15px 0;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.vl {
+		visibility: hidden;
+	}
+}
