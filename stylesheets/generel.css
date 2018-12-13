@@ -193,13 +193,11 @@ footer .footer_text {
 	display: none;
 	position: absolute;
 	background-color: #a5d6a7;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 	text-align: center;
-	padding: 0 0 10%;
-	margin-left: 0;
+	padding: 10% 0 10%;
+	margin: 0;
 	z-index: 9999;
 }
 
@@ -214,28 +212,25 @@ footer .footer_text {
 }
 
 #mb2 .box_logo {
+	margin-top:10%;
 	height: 60%;
 	width: auto;
 }
 
 #mb3 {
+	margin-top: 50%;
 	height: 30%;
 	width: 100%;
 }
 
 #mb3 p {
-	padding: 20% 0 5%;
 	width: 70%;
 	margin: auto;
 }
 
-#mb3 button {
-	padding: 40px 30px;
-	border: 1px solid black;
-	width: auto;
-	border-radius: 50%;
+#mb3 a:hover {
+	text-decoration: underline;
 }
-
 
 /*Credits styles*/
 #credits_box h5 {
@@ -253,7 +248,6 @@ footer .footer_text {
 
 
 /*Media query for navigationen*/
-
 @media only screen and (max-width: 1300px) {
 	#hjem {
 	padding: 14px 35%;
@@ -308,6 +302,10 @@ footer .footer_text {
 	}
 	
 	footer {
+		display: none;
+	}
+	
+	main {
 		display: none;
 	}
 	
