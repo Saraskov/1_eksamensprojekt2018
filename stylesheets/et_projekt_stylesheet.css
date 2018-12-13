@@ -110,7 +110,7 @@ width: 80%;
 	margin-top: 5%;
 }
 
-.button_box a button, .button_box_mobil a button {
+.button_box button, .button_box_mobil button {
 	background-color: #A5D6A7;
 	border-radius: 12.5px;
 	border: 1px solid black;
@@ -122,12 +122,16 @@ width: 80%;
 	transition: all 0.2s;
 }
 
-.button_box a button:hover, .button_box_mobil a button:hover {
+.button_box button:hover, .button_box_mobil button:hover {
 	opacity: 0.7;
 }
 
-.button_box a button h2, .button_box_mobil a button h2 {
+.button_box button a, .button_box_mobil button a {
 	margin: 0 70px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 /*Next navigation styles*/
