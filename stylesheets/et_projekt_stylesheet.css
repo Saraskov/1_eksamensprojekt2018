@@ -18,7 +18,7 @@ width: 80%;
 .imagebox {
 	width: 80%;
 	height: auto;
-	background-color: #D7FFD9;
+	background-color: #C4E0A4;
 	display: flex;
 	justify-content: space-between;
 	padding: 2% 10%;
@@ -61,7 +61,7 @@ width: 80%;
 
 .localnav li a:hover {
 	background: none;
-	color: #A5D6A7;
+	color: #93AE75;
 }
 
 /*Description styles*/
@@ -111,7 +111,7 @@ width: 80%;
 }
 
 .button_box button, .button_box_mobil button {
-	background-color: #A5D6A7;
+	background-color: #93AE75;
 	border-radius: 12.5px;
 	border: 1px solid black;
 	vertical-align: middle;

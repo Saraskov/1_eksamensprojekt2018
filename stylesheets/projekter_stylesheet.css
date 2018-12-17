@@ -72,7 +72,7 @@ BRUGT EFTER: https://github.com/web-tiki/responsive-grid-of-hexagons/blob/master
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color:rgba(215,255,217,0.80);
+  background-color: rgba(196,224,164,0.80);
 
 	/*Til hover effecten*/
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;

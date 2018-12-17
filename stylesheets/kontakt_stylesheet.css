@@ -1,4 +1,4 @@
-@charset "utf-8";
+c@charset "utf-8";
 /* CSS Document */
 
 
@@ -21,7 +21,7 @@ main {
 }
 
 #box1_indhold {
-	background-color: #a5d6a7;
+	background-color: #C4E0A4;
 	width: 255px;
 	height: auto;
 	position: absolute;
