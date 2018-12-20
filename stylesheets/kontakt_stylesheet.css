@@ -1,4 +1,4 @@
-c@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 
@@ -51,14 +51,14 @@ main {
 .box-2 {
 	display: inline-block;
 	width: 400px;
-	background: #D7FFD9;
+	background: rgba(196,224,164,0.7);
 	margin-top: 20px;
 }
 
 .box-2-in {
 	display: block;
 	width: 100%;
-	height: 33%;
+	height: 25%;
 	padding-left: 20px;
 	text-align: left;
 }

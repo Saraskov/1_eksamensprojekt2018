@@ -15,10 +15,10 @@ width: 80%;
 
 /*Øverst billedeserie*/
 
-.imagebox {
+.imagebox, .imagebox2 {
 	width: 80%;
 	height: auto;
-	background-color: #C4E0A4;
+	background-color: rgba(196,224,164,1);
 	display: flex;
 	justify-content: space-between;
 	padding: 2% 10%;
@@ -30,6 +30,14 @@ width: 80%;
 	height: 49%;
 	overflow: hidden;
 }
+
+.imagebox2 img {
+	max-width: 1500px;
+	width: 65%;
+	height: 65%;
+	margin-left: 35%;
+}
+
 
 
 /*Local navigation*/
@@ -81,6 +89,11 @@ width: 80%;
 .description_to article {
 	width: 49%;
 }
+.description_to .despription_img{
+	width: 70%;
+	vertical-align: middle;
+	margin: auto;
+}
 
 .description p, .description_to p, .description li, .description_to li, .description_mobile p, .description_mobile li {
 	text-align: left;
@@ -98,8 +111,35 @@ width: 80%;
 	margin-top: 25px;
 }
 
+.air2 {
+	margin: 80px auto;
+}
+
 .despription_img img {
 	width: 100%;
+}
+
+/*Dot style*/
+.morecontent {
+	display: none;
+	color: pink;
+}
+
+.morelink {
+	display: block;
+}
+#read_more1 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 25px;
+	justify-content: space-between;
+}
+
+.dot {
+	width: 5px;
+	height: 5px;
+	background-color: black;
+	border-radius: 50%;
 }
 
 /*Button styles*/
@@ -208,6 +248,15 @@ width: 80%;
 
 .next_nav:hover a, .pre_nav:hover a, .next_nav_mobil:hover a, .pre_nav_mobil:hover a {
 	visibility: visible;
+}
+
+/*Mobil toggle text effect*/
+#show_me1, #show_me2 {
+	display: none;
+}
+
+.flip {
+	cursor: pointer;
 }
 
 

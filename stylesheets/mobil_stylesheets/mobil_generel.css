@@ -29,8 +29,15 @@ h4 {
 }
 
 h5 {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+h6 {
 	font-size: 1.2em;
 	font-weight: 600;
+	text-decoration: underline;
+	margin: 10px auto;
 }
 
 p {
