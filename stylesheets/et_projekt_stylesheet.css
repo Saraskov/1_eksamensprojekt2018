@@ -119,29 +119,6 @@ width: 80%;
 	width: 100%;
 }
 
-/*Dot style*/
-.morecontent {
-	display: none;
-	color: pink;
-}
-
-.morelink {
-	display: block;
-}
-#read_more1 {
-	display: flex;
-	flex-wrap: wrap;
-	width: 25px;
-	justify-content: space-between;
-}
-
-.dot {
-	width: 5px;
-	height: 5px;
-	background-color: black;
-	border-radius: 50%;
-}
-
 /*Button styles*/
 
 .button_box, .button_box_mobil {
@@ -250,14 +227,6 @@ width: 80%;
 	visibility: visible;
 }
 
-/*Mobil toggle text effect*/
-#show_me1, #show_me2 {
-	display: none;
-}
-
-.flip {
-	cursor: pointer;
-}
 
 
 @media only screen and (max-width: 1200px) {
@@ -305,4 +274,8 @@ width: 80%;
 		top: inherit;
 		bottom: 10px;
 	}	
+	
+	.button_box_mobil button a {
+		margin: 10px;
+	}
 }
